@@ -1,18 +1,23 @@
-# README for a newly created project.
+If you are seeing this message, you are on the right track.  Let's keep it going.
 
-There are a couple of things you should do first, before you can use all of Git's power:
+1. Make sure you have a github account
+1. Fork the current project
+1. Navigate to cloue9ide.com and create an account
+  1. You'll want to use your github account to login (That's the little green button below 'Sign Me Up')
+1. Once you have logged into cloud9, you should see your newly forked project on the left.  
+  1. Click it and a new green button should show
+  1. Click the clone to edit button.
+1. Once that new project is available, you should be able to click that project and then 'Start Editing'
+1. Now that you are in the IDE, you want to start the server and make sure it works.  
+  1. To the right of the run button is a down arrow.  
+  1. Click that and then  'Run Configurations...'
+  1. Click the Add button.
+  1. Give your server a name
+  1. use index.js as the Jaascript file
+  1. Click Run
+1. You should see some stuff in the output box below.
+  1. Click the link to the right of the first sentance.
+  1. That should open up a new window and the text 'All you base are belong to us' should show.
 
-  * Add a remote to this project: in the Cloud9 IDE command line, you can execute the following commands
-    `git remote add [remote name] [remote url (eg. 'git@github.com:/ajaxorg/node_chat')]` [Enter]
-  * Create new files inside your project
-  * Add them to to Git by executing the following command
-    `git add [file1, file2, file3, ...]` [Enter]
-  * Create a commit which can be pushed to the remote you just added
-    `git commit -m 'added new files'` [Enter]
-  * Push the commit the remote
-    `git push [remote name] master` [Enter]
+You're ready to start coding
 
-That's it! If this doesn't work for you, please visit the excellent resources from [Github.com](http://help.github.com) and the [Pro Git](http://http://progit.org/book/) book.
-If you can't find your answers there, feel free to ask us via Twitter (@cloud9ide), [mailing list](groups.google.com/group/cloud9-ide) or IRC (#cloud9ide on freenode).
-
-Happy coding!
