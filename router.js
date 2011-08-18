@@ -12,5 +12,4 @@ function route(pathname, handle, response, params) {
         response.end();
     }
 }
-
 exports.route = route;
