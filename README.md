@@ -13,11 +13,12 @@ If you are seeing this message, you are on the right track.  Let's keep it going
   1. Click that and then  'Run Configurations...'
   1. Click the Add button.
   1. Give your server a name
-  1. use index.js as the Jaascript file
+  1. use index.js as the Javascript file
   1. Click Run
-1. You should see some stuff in the output box below.
+1. You should see some stuff in the output box.
   1. Click the link to the right of the first sentance.
   1. That should open up a new window and the text 'All you base are belong to us' should show.
+  1. If you add /example?foo=bar to the url, the same text should appear plus an additional line that says 'foo is bar'.
 
 You're ready to start coding
 
