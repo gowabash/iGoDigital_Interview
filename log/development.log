@@ -1,0 +1,2207 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-01-17 15:56:47 -0500
+Served asset /rails.png - 200 OK (5ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-01-17 15:56:47 -0500
+Served asset /rails.png - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 16:03:26 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (6.1ms)
+Compiled application.css  (2ms)  (pid 1457)
+Compiled pages.css  (7ms)  (pid 1457)
+Compiled application.js  (25ms)  (pid 1457)
+Compiled jquery.js  (26ms)  (pid 1457)
+Compiled jquery_ujs.js  (28ms)  (pid 1457)
+Compiled pages.js  (607ms)  (pid 1457)
+Completed 200 OK in 1219ms (Views: 1218.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:03:30 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:03:30 -0500
+Served asset /pages.css - 200 OK (22ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:03:30 -0500
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:03:30 -0500
+Served asset /jquery_ujs.js - 200 OK (7ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:03:30 -0500
+Served asset /pages.js - 200 OK (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:03:30 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 16:03:35 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 21ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:03:35 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:03:35 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:03:35 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:03:35 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:03:35 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:03:36 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 16:13:16 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:13:16 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:13:16 -0500
+Served asset /pages.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:13:16 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:13:16 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:13:16 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:13:16 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=100&commit=Save+changes" for 127.0.0.1 at 2012-01-17 16:13:21 -0500
+
+ActionController::RoutingError (No route matches [GET] "/fib_sum"):
+  
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=100&commit=Save+changes" for 127.0.0.1 at 2012-01-17 16:17:22 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"100", "commit"=>"Save changes"}
+Completed 500 Internal Server Error in 65ms
+
+ActionView::MissingTemplate (Missing template pages/answer, application/answer with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/usr/local/src/igo-interview/app/views"
+):
+  
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=100&commit=Save+changes" for 127.0.0.1 at 2012-01-17 16:18:02 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"100", "commit"=>"Save changes"}
+Rendered pages/answer.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:18:02 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:18:02 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:18:02 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:18:02 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:18:02 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:18:02 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=100" for 127.0.0.1 at 2012-01-17 16:18:28 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"100"}
+Rendered pages/answer.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:18:28 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:18:28 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:18:28 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:18:28 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:18:28 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:18:28 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=100" for 127.0.0.1 at 2012-01-17 16:19:05 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"100"}
+Rendered pages/answer.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:19:05 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:19:05 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:19:05 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:19:05 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:19:05 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:19:05 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/fib_sum?limit=100" for 127.0.0.1 at 2012-01-17 16:25:11 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"100"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:20:in `<'
+  app/controllers/pages_controller.rb:20:in `solve'
+  app/controllers/pages_controller.rb:8:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/fib_sum?limit=100" for 127.0.0.1 at 2012-01-17 16:28:29 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"100"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with nil failed):
+  app/controllers/pages_controller.rb:20:in `<'
+  app/controllers/pages_controller.rb:20:in `solve'
+  app/controllers/pages_controller.rb:8:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/fib_sum?limit=100" for 127.0.0.1 at 2012-01-17 16:29:11 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"100"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:20:in `<'
+  app/controllers/pages_controller.rb:20:in `solve'
+  app/controllers/pages_controller.rb:8:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/fib_sum?limit=100" for 127.0.0.1 at 2012-01-17 16:29:28 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"100"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:20:in `<'
+  app/controllers/pages_controller.rb:20:in `solve'
+  app/controllers/pages_controller.rb:8:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (20.9ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.6ms)
+
+
+Started GET "/fib_sum?limit=100" for 127.0.0.1 at 2012-01-17 16:29:32 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"100"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:20:in `<'
+  app/controllers/pages_controller.rb:20:in `solve'
+  app/controllers/pages_controller.rb:8:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.4ms)
+
+
+Started GET "/fib_sum?limit=100" for 127.0.0.1 at 2012-01-17 16:30:00 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"100"}
+Rendered pages/answer.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:30:00 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:30:00 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:00 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:00 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:00 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:00 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=100" for 127.0.0.1 at 2012-01-17 16:30:23 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"100"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:30:23 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:30:23 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:23 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:23 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:23 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=100" for 127.0.0.1 at 2012-01-17 16:30:28 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"100"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:30:28 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:28 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:30:28 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:28 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:28 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:28 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=100" for 127.0.0.1 at 2012-01-17 16:30:50 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"100"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:30:50 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:30:50 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:50 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:50 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:50 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:50 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=100" for 127.0.0.1 at 2012-01-17 16:30:58 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"100"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:58 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:30:58 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:30:58 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:58 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:58 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:30:58 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=100" for 127.0.0.1 at 2012-01-17 16:32:06 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"100"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:21:in `<'
+  app/controllers/pages_controller.rb:21:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started GET "/fib_sum?limit=100" for 127.0.0.1 at 2012-01-17 16:32:41 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"100"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:21:in `<'
+  app/controllers/pages_controller.rb:21:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/fib_sum?limit=100" for 127.0.0.1 at 2012-01-17 16:32:53 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"100"}
+Rendered pages/answer.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:32:53 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:32:53 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:32:53 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:32:53 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:32:53 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:32:53 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:32:58 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:32:58 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:32:58 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:32:58 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:32:58 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:32:58 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:32:58 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:33:41 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:21:in `<'
+  app/controllers/pages_controller.rb:21:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:34:00 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:21:in `<'
+  app/controllers/pages_controller.rb:21:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (29.7ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.6ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:34:11 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:22:in `<'
+  app/controllers/pages_controller.rb:22:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:35:38 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:22:in `<'
+  app/controllers/pages_controller.rb:22:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:35:42 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:22:in `<'
+  app/controllers/pages_controller.rb:22:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:36:05 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:22:in `<'
+  app/controllers/pages_controller.rb:22:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:38:56 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:22:in `<'
+  app/controllers/pages_controller.rb:22:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.1ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:38:58 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:22:in `<'
+  app/controllers/pages_controller.rb:22:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:40:02 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:21:in `<'
+  app/controllers/pages_controller.rb:21:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:41:01 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Rendered pages/answer.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 23ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:41:01 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:41:01 -0500
+Served asset /pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:41:01 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:41:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:41:01 -0500
+Served asset /pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:41:01 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:41:18 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Rendered pages/answer.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 28ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:41:18 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:41:18 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:41:18 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:41:18 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:41:18 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:41:18 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:42:36 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:21:in `<'
+  app/controllers/pages_controller.rb:21:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:43:15 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:43:15 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:43:15 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:43:15 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:43:15 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:43:15 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:43:15 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:43:24 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:43:24 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:43:24 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:43:24 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:43:24 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:43:24 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:43:24 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:43:43 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:21:in `<='
+  app/controllers/pages_controller.rb:21:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:44:01 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:21:in `<'
+  app/controllers/pages_controller.rb:21:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:44:14 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:44:14 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:44:14 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:44:14 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:44:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:44:14 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:44:14 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:44:46 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (comparison of Fixnum with String failed):
+  app/controllers/pages_controller.rb:21:in `<'
+  app/controllers/pages_controller.rb:21:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:45:52 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:45:52 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:45:52 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:45:52 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:45:52 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:45:52 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:45:52 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:46:27 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:46:27 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:46:27 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:46:27 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:46:27 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:46:27 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:46:27 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=10" for 127.0.0.1 at 2012-01-17 16:47:48 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"10"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:47:49 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:47:49 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:47:49 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:47:49 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:47:49 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:47:49 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=8" for 127.0.0.1 at 2012-01-17 16:47:54 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"8"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 16:47:54 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 16:47:54 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 16:47:54 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 16:47:54 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 16:47:54 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 16:47:54 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/fib_sum?limit=8" for 127.0.0.1 at 2012-01-17 16:59:00 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"8"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `first=' for [1, 2]:Array):
+  app/controllers/pages_controller.rb:22:in `block in solve'
+  app/controllers/pages_controller.rb:19:in `times'
+  app/controllers/pages_controller.rb:19:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/fib_sum?limit=8" for 127.0.0.1 at 2012-01-17 17:07:10 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"8"}
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/pages_controller.rb:20:in `block in solve'
+  app/controllers/pages_controller.rb:19:in `times'
+  app/controllers/pages_controller.rb:19:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/fib_sum?limit=8" for 127.0.0.1 at 2012-01-17 17:08:14 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"8"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:08:15 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:08:15 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:15 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:15 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:15 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:15 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=1" for 127.0.0.1 at 2012-01-17 17:08:24 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"1"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:08:24 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:24 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:08:24 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:24 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:24 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:24 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=2" for 127.0.0.1 at 2012-01-17 17:08:37 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"2"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:08:37 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:08:37 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:37 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:37 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:37 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:37 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=3" for 127.0.0.1 at 2012-01-17 17:08:42 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"3"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:42 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:08:42 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:08:42 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:42 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:42 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:42 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=4" for 127.0.0.1 at 2012-01-17 17:08:46 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"4"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:08:46 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:08:46 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:46 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:46 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:46 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=5" for 127.0.0.1 at 2012-01-17 17:08:49 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"5"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:08:49 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:08:49 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:49 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:49 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:49 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:49 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=6" for 127.0.0.1 at 2012-01-17 17:08:52 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"6"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:08:52 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:52 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:53 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:08:53 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:53 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:08:53 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=1" for 127.0.0.1 at 2012-01-17 17:09:00 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"1"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:09:01 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:09:01 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:09:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:09:01 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:09:01 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:09:01 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=1" for 127.0.0.1 at 2012-01-17 17:13:43 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"1"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (wrong number of arguments(1 for 0)):
+  app/controllers/pages_controller.rb:20:in `length'
+  app/controllers/pages_controller.rb:20:in `block in solve'
+  app/controllers/pages_controller.rb:19:in `times'
+  app/controllers/pages_controller.rb:19:in `solve'
+  app/controllers/pages_controller.rb:9:in `answer'
+
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/fib_sum?limit=1" for 127.0.0.1 at 2012-01-17 17:15:56 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"1"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:15:56 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:15:56 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:15:56 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:15:56 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:15:56 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:15:56 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=2" for 127.0.0.1 at 2012-01-17 17:16:04 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"2"}
+Rendered pages/answer.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:16:04 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:16:04 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:04 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:04 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:04 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:04 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=3" for 127.0.0.1 at 2012-01-17 17:16:09 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"3"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:16:09 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:16:09 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:09 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:09 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:09 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:09 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=4" for 127.0.0.1 at 2012-01-17 17:16:11 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"4"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:16:11 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:16:11 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:11 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:11 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:11 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:11 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=5" for 127.0.0.1 at 2012-01-17 17:16:14 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"5"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:16:14 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:14 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:14 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:14 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:16:14 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?limit=8" for 127.0.0.1 at 2012-01-17 17:16:39 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"limit"=>"8"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:16:39 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:39 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:39 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:16:39 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:39 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:16:39 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:17:20 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:17:20 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:17:20 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:17:20 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:17:20 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:17:20 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:17:20 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=100&commit=Save+changes" for 127.0.0.1 at 2012-01-17 17:17:23 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"100", "commit"=>"Save changes"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:17:23 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:17:23 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:17:23 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:17:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:17:23 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:17:23 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=1&commit=Save+changes" for 127.0.0.1 at 2012-01-17 17:19:14 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"1", "commit"=>"Save changes"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:19:14 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:19:14 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:14 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:14 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:14 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=1&commit=Save+changes" for 127.0.0.1 at 2012-01-17 17:19:35 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"1", "commit"=>"Save changes"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:19:35 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:35 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:35 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:19:35 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:35 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:35 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=2&commit=Save+changes" for 127.0.0.1 at 2012-01-17 17:19:40 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"2", "commit"=>"Save changes"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:19:40 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:40 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:19:40 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:40 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:40 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=3&commit=Save+changes" for 127.0.0.1 at 2012-01-17 17:19:46 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"3", "commit"=>"Save changes"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:19:46 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:19:46 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:46 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:46 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:46 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=4&commit=Save+changes" for 127.0.0.1 at 2012-01-17 17:19:50 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"4", "commit"=>"Save changes"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:19:50 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:19:50 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:50 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:50 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:50 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:50 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=5&commit=Save+changes" for 127.0.0.1 at 2012-01-17 17:19:56 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"5", "commit"=>"Save changes"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:19:56 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:19:56 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:56 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:56 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:56 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:19:56 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=6&commit=Save+changes" for 127.0.0.1 at 2012-01-17 17:20:00 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"6", "commit"=>"Save changes"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:20:00 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:20:00 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:20:00 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:20:00 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:20:00 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:20:00 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=7&commit=Save+changes" for 127.0.0.1 at 2012-01-17 17:20:06 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"7", "commit"=>"Save changes"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:20:06 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:20:06 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:20:06 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:20:06 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:20:06 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:20:06 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=8&commit=Save+changes" for 127.0.0.1 at 2012-01-17 17:20:10 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"8", "commit"=>"Save changes"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:20:10 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:20:10 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:20:10 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:20:10 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:20:10 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:20:10 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=8&commit=Save+changes" for 127.0.0.1 at 2012-01-17 17:21:11 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"8", "commit"=>"Save changes"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:21:11 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:21:11 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:21:11 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:21:11 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:21:11 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:21:11 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:21:32 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:21:32 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:21:32 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:21:32 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:21:32 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:21:32 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:21:32 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:22:44 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:22:44 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:22:44 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:22:44 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:22:44 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:22:44 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:22:44 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=8&commit=Submit" for 127.0.0.1 at 2012-01-17 17:23:00 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"8", "commit"=>"Submit"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:23:00 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:23:00 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:23:00 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:23:00 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:23:00 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:23:00 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=8&commit=Submit" for 127.0.0.1 at 2012-01-17 17:23:27 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"8", "commit"=>"Submit"}
+Rendered pages/answer.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:23:27 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:23:27 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:23:27 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:23:27 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:23:27 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:23:27 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=80&commit=Submit" for 127.0.0.1 at 2012-01-17 17:23:36 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"80", "commit"=>"Submit"}
+Rendered pages/answer.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-17 17:23:36 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:23:36 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:23:36 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:23:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:23:36 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:23:36 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=80&commit=Submit" for 127.0.0.1 at 2012-01-17 17:45:54 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"80", "commit"=>"Submit"}
+Rendered pages/answer.html.erb within layouts/application (4.2ms)
+Compiled application.css  (1ms)  (pid 1758)
+Compiled pages.css  (1ms)  (pid 1758)
+Compiled application.js  (4ms)  (pid 1758)
+Compiled jquery.js  (2ms)  (pid 1758)
+Compiled jquery_ujs.js  (0ms)  (pid 1758)
+Compiled pages.js  (124ms)  (pid 1758)
+Completed 200 OK in 201ms (Views: 200.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:45:54 -0500
+Served asset /pages.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:45:54 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:45:54 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:45:54 -0500
+Served asset /pages.js - 304 Not Modified (2ms)
+
+
+Started GET "/fib_sum" for 127.0.0.1 at 2012-01-17 17:45:57 -0500
+  Processing by PagesController#answer as HTML
+Rendered pages/answer.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:45:58 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:45:58 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:45:58 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:45:58 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum" for 127.0.0.1 at 2012-01-17 17:46:01 -0500
+  Processing by PagesController#answer as HTML
+Rendered pages/answer.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:01 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:01 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:01 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum" for 127.0.0.1 at 2012-01-17 17:46:28 -0500
+  Processing by PagesController#answer as HTML
+Rendered pages/answer.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:28 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:28 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:28 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:28 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:46:30 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:30 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:30 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:30 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:30 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:46:41 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:41 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:41 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:41 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:41 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=8&commit=Submit" for 127.0.0.1 at 2012-01-17 17:46:45 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"8", "commit"=>"Submit"}
+Rendered pages/answer.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:45 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:45 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:45 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:45 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:46:47 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:47 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:47 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:47 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
