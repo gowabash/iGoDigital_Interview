@@ -1,0 +1,6 @@
+<h2>Fibonacci Test:</h2>
+Please enter the desired number of terms.<br />
+<%= form_tag('/fib_sum', :method => :get) %>
+Limit:
+<%= text_field_tag 'limit' %>
+<%= submit_tag 'Submit' %>
