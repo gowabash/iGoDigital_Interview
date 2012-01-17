@@ -2021,3 +2021,187 @@ Served asset /pages.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-17 17:23:36 -0500
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=80&commit=Submit" for 127.0.0.1 at 2012-01-17 17:45:54 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"80", "commit"=>"Submit"}
+Rendered pages/answer.html.erb within layouts/application (4.2ms)
+Compiled application.css  (1ms)  (pid 1758)
+Compiled pages.css  (1ms)  (pid 1758)
+Compiled application.js  (4ms)  (pid 1758)
+Compiled jquery.js  (2ms)  (pid 1758)
+Compiled jquery_ujs.js  (0ms)  (pid 1758)
+Compiled pages.js  (124ms)  (pid 1758)
+Completed 200 OK in 201ms (Views: 200.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:45:54 -0500
+Served asset /pages.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:45:54 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:45:54 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:45:54 -0500
+Served asset /pages.js - 304 Not Modified (2ms)
+
+
+Started GET "/fib_sum" for 127.0.0.1 at 2012-01-17 17:45:57 -0500
+  Processing by PagesController#answer as HTML
+Rendered pages/answer.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:45:58 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:45:58 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:45:58 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:45:58 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum" for 127.0.0.1 at 2012-01-17 17:46:01 -0500
+  Processing by PagesController#answer as HTML
+Rendered pages/answer.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:01 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:01 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:01 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum" for 127.0.0.1 at 2012-01-17 17:46:28 -0500
+  Processing by PagesController#answer as HTML
+Rendered pages/answer.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:28 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:28 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:28 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:28 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:46:30 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:30 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:30 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:30 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:30 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:46:41 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:41 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:41 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:41 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:41 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/fib_sum?utf8=%E2%9C%93&limit=8&commit=Submit" for 127.0.0.1 at 2012-01-17 17:46:45 -0500
+  Processing by PagesController#answer as HTML
+  Parameters: {"utf8"=>"✓", "limit"=>"8", "commit"=>"Submit"}
+Rendered pages/answer.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:45 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:45 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:45 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:45 -0500
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-17 17:46:47 -0500
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2012-01-17 17:46:47 -0500
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:47 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2012-01-17 17:46:47 -0500
+Served asset /pages.js - 304 Not Modified (0ms)

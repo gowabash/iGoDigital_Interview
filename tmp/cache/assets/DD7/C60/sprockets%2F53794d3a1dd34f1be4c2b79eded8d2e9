@@ -1,14 +1,5 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1326840354.6239228:@value{I"
-class:EFI"BundledAsset;
-FI"id;
-F"%514f05bbd08f8fd071242ddb07af3ed9I"logical_path;
-F"jquery_ujs.jsI"pathname;
-F"d/usr/local/lib/ruby/gems/1.9.1/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery_ujs.jsI"content_type;
-FI"application/javascript;
-FI"
-mtime;
-FI"2011-12-02T04:51:06-05:00;
-FI"	body;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1326840354.76275:@value{	I"length:EFiç;I"digest;
+F"%2caafa0c2617f9985c1a0b07ebaefadfI"source;
 FI"ç;(function($, undefined) {
 
 /**
@@ -383,12 +374,5 @@ FI"ç;(function($, undefined) {
 
 })( jQuery );
 ;
-FI"asset_paths;
-F["d/usr/local/lib/ruby/gems/1.9.1/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery_ujs.jsI"dependency_paths;
-F[{I"	path;
-F"d/usr/local/lib/ruby/gems/1.9.1/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery_ujs.jsI"
-mtime;
-FIu:	TimeIì€  `Ì:@_zoneI"EST;
-T:offsetiþ°¹I"hexdigest;
-F"%2caafa0c2617f9985c1a0b07ebaefadfI"_version;
-F"%46dde6621c301f4928e3b34efee9e3b5
+FI"_version;
+F"%514f05bbd08f8fd071242ddb07af3ed9
