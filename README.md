@@ -1,3 +1,5 @@
+###This app is [live on Heroku](http://sharp-night-2933.herokuapp.com/).
+
 If you are seeing this message, you are on the right track.  Let's keep it going.
 
 1. Make sure you have a github account
