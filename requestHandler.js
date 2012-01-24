@@ -27,12 +27,9 @@ function fib_sum(response, params) {
     });
     response.write("<html><head><title>iGoDigital Interview</title></head><body>");
     response.write("<h1>Fibonacci Test</h1>");
-    if (params.length > 0) {
-        for (var i in params) {
-            response.write("<h2>Results:</h2>");
-            response.write("The limit is: <b>" + params[i] + "</b><br />");
-            response.write("The answer is: <b>" + s(params[i]) + "</b><br />");
-        }
+    for (var i in params) {
+        response.write("The limit is: <b>" + params[i] + "</b><br />");
+        response.write("The answer is: <b>" + s(params[i]) + "</b><br />");
     }
     response.write("</body></html>");
     response.end();
